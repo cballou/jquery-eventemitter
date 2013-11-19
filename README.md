@@ -1,7 +1,22 @@
 ## Usage
 
+```javascript
+var Event = new $.eventEmitter();
+
+// create a pub-sub subscribe event with channel/namespace/topic "hey"
+Event.on('hey', function(p1, p2) { /* callback */ });
+
+// trigger a pub-sub publish event on channel/namespace/topic "hey"
+// passing in any number of arbitrary parameters
+Event.trigger('hey', param1, param2);
+```
+
+#### Detailed Examples
+
 Below is an example of how an event callback can be triggered
 even if the actual event was triggered before the callback binding.
+Note that event triggers also support supplying an unlimited number
+of arguments following the event name.
 
 ```javascript
 function fn1(msg) {
