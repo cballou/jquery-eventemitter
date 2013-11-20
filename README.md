@@ -63,3 +63,7 @@ Event.trigger('hey', 'ho');
 // outputs "fn2 called with message: hum"
 Event.trigger('ho', 'hum');
 ```
+
+## Credits
+
+Inspired by James Padosley's [EventEmitter](http://james.padolsey.com/javascript/jquery-eventemitter/).
