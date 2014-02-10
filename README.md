@@ -67,3 +67,7 @@ Event.trigger('ho', 'hum');
 ## Credits
 
 Inspired by James Padosley's [EventEmitter](http://james.padolsey.com/javascript/jquery-eventemitter/).
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/cballou/jquery-eventemitter/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
